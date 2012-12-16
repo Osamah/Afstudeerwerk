@@ -1,0 +1,8 @@
+De data wordt uit de excelfile gelezen, alle adressen worden omgevormt in Geopoints en zo in de database ingevoert.
+
+
+
+
+
+/*ERROR*/
+OVER_QUERY_LIMIT was het probleem.. Als je te snel gegevens opvraagt dan krijg je 'OVER_QUERY_LIMIT' als status bij de geocoder. Daarom php sleep zodat we de query limiet niet verschrijden
