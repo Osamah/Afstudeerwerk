@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'sefer';
-  src: url('fonts/sefer-ah.ttf');
-}
-
 body{
 
 	font-family: arial;
@@ -13,9 +8,16 @@ header{
 
 	width: 100%;
 	position: fixed;
-	margin-top: 1%;
 
-	background: black;
+	background: #1c5443; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1c5443 0%, #1d5552 0%, #297773 21%, #74a09e 66%, #9abab8 83%, #c3d5d4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1c5443), color-stop(0%,#1d5552), color-stop(21%,#297773), color-stop(66%,#74a09e), color-stop(83%,#9abab8), color-stop(100%,#c3d5d4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1c5443 0%,#1d5552 0%,#297773 21%,#74a09e 66%,#9abab8 83%,#c3d5d4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1c5443 0%,#1d5552 0%,#297773 21%,#74a09e 66%,#9abab8 83%,#c3d5d4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1c5443 0%,#1d5552 0%,#297773 21%,#74a09e 66%,#9abab8 83%,#c3d5d4 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1c5443 0%,#1d5552 0%,#297773 21%,#74a09e 66%,#9abab8 83%,#c3d5d4 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c5443', endColorstr='#c3d5d4',GradientType=0 ); /* IE6-9 */
+
 
 }
 
@@ -24,8 +26,6 @@ header h1{
 	margin: 1% 0;
 	width: 40%;
 	float:left;
-	font-family: 'sefer';
-	color: white;
 }
 
 header a{
@@ -86,40 +86,3 @@ header a{
 }
 
 /*Footer*/
-
-footer{
-
-	position: fixed;
-	bottom: 0;
-	width: 100%;	
-	margin-bottom: 1%;
-
-}
-
-footer div{
-
-	float:left;
-	margin-left: 3%;
-	border-left: 1px solid;
-	width: 20%;
-	text-align: center;
-}
-
-table{
-
-	text-align: left;
-	width: 200px;
-	margin: auto;
-}
-
-
-
-footer div:nth-child(2){
-	border-left: none;
-}
-
-#socialMedia img{
-
-	width: 20%;
-	padding: 2%;
-}
