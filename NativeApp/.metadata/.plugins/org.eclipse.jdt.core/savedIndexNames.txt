@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+E:\GitHub\Afstudeerwerk\NativeApp\.metadata\.plugins\org.eclipse.jdt.core
+2961518745.index
+2680978485.index
+2959419879.index

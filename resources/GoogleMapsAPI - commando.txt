@@ -1,0 +1,21 @@
+c:\Program Files\Java\jdk1.7.0_10\bin>keytool.exe -list -alias androiddebugkey -keystore "c:\users\Nabil\.android\debug.keystore" -storepass android -keypass android
+
+androiddebugkey, 22-dec-2012, PrivateKeyEntry,
+Certificate fingerprint (SHA1): DE:4F:E4:4D:89:97:C0:F3:C6:BF:19:5A:B5:7C:21:CB:64:06:AD:30
+
+API key opvragen
+https://code.google.com/apis/console/?pli=1#project:80396521280:overview
+
+Formaat
+SHa1-KEy;applicaties package name
+
+ons geval:
+DE:4F:E4:4D:89:97:C0:F3:C6:BF:19:5A:B5:7C:21:CB:64:06:AD:30;com.pillar.second
+
+Key for Android apps (with certificates)
+API key:	
+AIzaSyA5lb_q9O6QGko3PGrzq6Ih0DzaB2krYvA
+Android apps:	
+DE:4F:E4:4D:89:97:C0:F3:C6:BF:19:5A:B5:7C:21:CB:64:06:AD:30;com.pillar.second
+Activated on:	Dec 26, 2012 3:50 PM
+Activated by:	 makhout.nabil@gmail.com – you
