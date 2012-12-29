@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
-    
-    
+
+    <string name="app_name">Zwei Pillar</string>
+    <string name="edit_message">Fure berichten in</string>
+    <string name="button_send">Stuhr</string>
+    <string name="menu_settings">Paramieter</string>
+    <string name="favorite">MeinFAvorite String</string>
+    <string name="menu_search">Suchen</string>
+
 </resources>

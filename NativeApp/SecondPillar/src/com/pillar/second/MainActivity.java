@@ -4,8 +4,10 @@ import android.os.Bundle;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+import android.widget.Toast;
 
 public class MainActivity extends TabActivity {
 
@@ -13,10 +15,9 @@ public class MainActivity extends TabActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-        
+     
         //Defining Tabs
-       /* TabHost tabHost = getTabHost();
+       TabHost tabHost = getTabHost();
  
         TabSpec mosque = tabHost.newTabSpec("Mosque");
         // setting Title and Icon for the Tab
@@ -43,16 +44,33 @@ public class MainActivity extends TabActivity {
         tabHost.addTab(prayer); 
         tabHost.addTab(favorite); 
         
-    }*/
+    }
 
     //Menu in Actionbar - icons
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.activity_main, menu);
+        getMenuInflater().inflate(R.menu.options, menu);
         return true;
     }
     
-
     
+ // Handle click events
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+       switch (item.getItemId()) {
+       case R.id.option_settings:
+          Toast.makeText(this, "Add", Toast.LENGTH_SHORT).show();
+          return true;
+       case R.id.help_settings:
+          Toast.makeText(this, "Help", Toast.LENGTH_SHORT).show();
+          return true;
+
+       default:
+          return super.onOptionsItemSelected(item);
+       }
+    }
+    
+
 }

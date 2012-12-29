@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
-    
-    
+
+    <string name="app_name">deuxieme Pillar</string>
+    <string name="edit_message">ecrir message</string>
+    <string name="button_send">envoie</string>
+    <string name="menu_settings">parameter</string>
+    <string name="favorite">MaString Favorite</string>
+    <string name="menu_search">chercher</string>
+
 </resources>

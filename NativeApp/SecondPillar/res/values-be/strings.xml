@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Tweede Pijler</string>
-    <string name="edit_message">Voer een bericht in</string>
+    <string name="app_name">Tweede zuil</string>
+    <string name="edit_message">Schrijf bericht</string>
     <string name="button_send">Stuur</string>
-    <string name="menu_settings">Instellingen</string>
+    <string name="menu_settings">instellingen</string>
     <string name="favorite">MijnFavoriete String</string>
+    <string name="menu_search">Zoek</string>
 
 </resources>

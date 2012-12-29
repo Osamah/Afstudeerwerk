@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_search" 
+        android:icon="@drawable/search_light"/>
+    
+     <item
+        android:id="@+id/menu_help"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_search"
+        android:icon="@drawable/search_light"/>
+
+</menu>
