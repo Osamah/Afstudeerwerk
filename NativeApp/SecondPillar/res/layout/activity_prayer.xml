@@ -6,25 +6,18 @@
   android:layout_height="match_parent">
  
   <!-- Screen Design -->
-  <TextView android:text="PRAYER HERE"
-            android:padding="15dip"
-            android:textSize="18dip"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"/>
-  
- 
   
   <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/tblPrayer"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
  
-  <!-- HEADER -->
+  <!-- HEADER 
  	<TableRow
         android:id="@+id/headerRow"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:padding="5dip" >
+        android:padding="5dip" >-->
  
       <!--    <TextView
             android:id="@+id/headerCol1"
@@ -39,7 +32,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textAppearance="?android:attr/textAppearanceLarge" />-->
-        
+        <!--  
      	<TextView
             android:id="@+id/headerCol3"
             android:text="@string/headerCol3"
@@ -48,7 +41,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge" 
             android:layout_column="3"/>
       
-  	</TableRow>
+  	</TableRow>-->
       
  	<!-- PRAYER 1 -->
     <TableRow
@@ -76,6 +69,7 @@
             android:id="@+id/prayerNotification1"
             android:layout_weight="1"
             android:gravity="center"
+            android:button="@drawable/notification_prayers"
         />
   	</TableRow>
     
@@ -106,6 +100,7 @@
             android:id="@+id/prayerNotification2"
             android:layout_weight="1"
             android:gravity="center"
+            android:button="@drawable/notification_prayers"
         />
   	</TableRow>
   	
@@ -136,6 +131,7 @@
             android:id="@+id/prayerNotification3"
             android:layout_weight="1"
             android:gravity="center"
+            android:button="@drawable/notification_prayers"
         />
   	</TableRow>
   	
@@ -166,6 +162,7 @@
             android:id="@+id/prayerNotification4"
             android:layout_weight="1"
             android:gravity="center"
+            android:button="@drawable/notification_prayers"
         />
   	</TableRow>
   	
@@ -197,6 +194,7 @@
             android:id="@+id/prayerNotification5"
             android:layout_weight="1"
             android:gravity="center"
+            android:button="@drawable/notification_prayers"
         />
   	</TableRow>
     </TableLayout>

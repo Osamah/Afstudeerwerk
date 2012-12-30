@@ -61,10 +61,19 @@ public class MainActivity extends TabActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
        switch (item.getItemId()) {
        case R.id.option_settings:
-          Toast.makeText(this, "Add", Toast.LENGTH_SHORT).show();
+          //Toast.makeText(this, "Options", Toast.LENGTH_SHORT).show();
+          
+    	  //Start Settings Activity	
+          Intent settings = new Intent(this, SettingsActivity.class);
+          startActivity(settings);
           return true;
-       case R.id.help_settings:
+          
+       case R.id.option_about:
           Toast.makeText(this, "Help", Toast.LENGTH_SHORT).show();
+    	   
+    	   //Start About Activity	
+    	   Intent about = new Intent(this, AboutActivity.class);
+           startActivity(about);
           return true;
 
        default:

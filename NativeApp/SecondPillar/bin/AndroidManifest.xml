@@ -28,7 +28,7 @@
 	
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="10" 
+        android:targetSdkVersion="16" 
     />
 
     <application
@@ -47,9 +47,13 @@
         </activity>
         
         
+        
+        <!-- Activity's -->
         <activity android:name=".MosqueActivity" />
         <activity android:name=".FavoriteActivity" />
  		<activity android:name=".PrayerActivity" />
+ 		<activity android:name=".SettingsActivity" />
+ 		<activity android:name=".AboutActivity" />
  		
  	<!--  	<uses-library android:name="com.google.android.maps" />
  		<uses-library android:name="android.permission.INTERNET" />-->
