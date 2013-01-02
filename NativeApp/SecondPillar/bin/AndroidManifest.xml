@@ -49,11 +49,15 @@
         
         
         <!-- Activity's -->
-        <activity android:name=".MosqueActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".AddMosqueActivity" />
+        <activity android:name=".DetailMosqueActivity" />
         <activity android:name=".FavoriteActivity" />
- 		<activity android:name=".PrayerActivity" />
+        <activity android:name=".MosqueActivity" />
+        <activity android:name=".PrayerActivity" />
+        <activity android:name=".SearchMosqueActivity" />
  		<activity android:name=".SettingsActivity" />
- 		<activity android:name=".AboutActivity" />
+ 		
  		
  	<!--  	<uses-library android:name="com.google.android.maps" />
  		<uses-library android:name="android.permission.INTERNET" />-->

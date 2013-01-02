@@ -1,0 +1,8 @@
+package com.pillar.second;
+
+import android.app.Activity;
+
+public class AddMosqueActivity extends Activity
+{
+
+}

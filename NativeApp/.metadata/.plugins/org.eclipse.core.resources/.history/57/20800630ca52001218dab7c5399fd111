@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+ 
+  <!-- Screen Design
+  <TextView android:text="Favorite Content"
+            android:padding="15dip"
+            android:textSize="18dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+  
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />-->
+  
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tblPrayer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+  <!-- HEADER 
+ 	<TableRow
+        android:id="@+id/headerRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >-->
+ 
+      <!--    <TextView
+            android:id="@+id/headerCol1"
+            android:text="@string/headerCol1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/headerCol2"
+            android:text="@string/headerCol2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />-->
+        <!--  
+     	<TextView
+            android:id="@+id/headerCol3"
+            android:text="@string/headerCol3"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_column="3"/>
+      
+  	</TableRow>-->
+      
+ 	<!-- PRAYER 1 -->
+    <TableRow
+        android:id="@+id/mosqueRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/mosque1"
+            android:text="MosqueName"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        
+        <ImageButton
+            android:id="@+id/route1"
+            android:text="@string/prayerTime1"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/route_dark"
+          	android:layout_width="wrap_content"
+          	android:layout_height="wrap_content"
+            android:contentDescription="Icon Route"/>
+        
+        <ImageButton
+            android:id="@+id/remove1"
+            android:text="@string/prayerTime1"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/remove_dark"
+            android:contentDescription="Icon Remove"/>
+        
+       
+  	</TableRow>
+    
+    <!-- PRAYER 2 -->
+    <TableRow
+        android:id="@+id/dhorRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+       <TextView
+            android:id="@+id/prayer2"
+            android:text="@string/prayer2"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        
+        <TextView
+            android:id="@+id/prayerTime2"
+            android:text="@string/prayerTime2"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        
+        <CheckBox 
+            android:id="@+id/prayerNotification2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@drawable/notification_prayers"
+        />
+  	</TableRow>
+  	
+    <!-- PRAYER 3 -->
+    <TableRow
+        android:id="@+id/rhasrRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+       <TextView
+            android:id="@+id/prayer3"
+            android:text="@string/prayer3"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        
+        <TextView
+            android:id="@+id/prayerTime3"
+            android:text="@string/prayerTime3"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        
+        <CheckBox 
+            android:id="@+id/prayerNotification3"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@drawable/notification_prayers"
+        />
+  	</TableRow>
+  	
+    <!-- PRAYER 4 -->
+    <TableRow
+        android:id="@+id/magrebRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/prayer4"
+            android:text="@string/prayer4"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        
+        <TextView
+            android:id="@+id/prayerTime4"
+            android:text="@string/prayerTime4"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        
+        <CheckBox 
+            android:id="@+id/prayerNotification4"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@drawable/notification_prayers"
+        />
+  	</TableRow>
+  	
+    
+    <!-- PRAYER 5 -->
+    <TableRow
+        android:id="@+id/lahsaRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+  		 <TextView
+            android:id="@+id/prayer5"
+            android:text="@string/prayer5"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        
+        <TextView
+            android:id="@+id/prayerTime5"
+            android:text="@string/prayerTime5"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            />
+        
+        <CheckBox 
+            android:id="@+id/prayerNotification5"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@drawable/notification_prayers"
+        />
+  	</TableRow>
+    </TableLayout>
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/favorite" 
+  />
+  
+  <CheckBox
+        android:id="@+id/notifications"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notifications" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prayingWhere" />
+
+	<RadioGroup
+	    android:id="@+id/wherePraying"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	     
+	    <RadioButton 
+	    	android:id="@+id/prayhome"
+	    	android:text="@string/prayHome"/>
+	    
+	    <RadioButton
+	        android:id="@+id/prayMosque"
+	        android:text="@string/prayMosque" />
+	</RadioGroup>
+
+	
+	
+  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NotificationsPraying" />
+
+  <RadioGroup
+      android:id="@+id/NotificationsPraying"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+
+      <RadioButton
+          android:id="@+id/inAdvance"
+          android:text="@string/inAdvance" />
+
+      <RadioButton
+          android:id="@+id/onTime"
+          android:text="@string/onTime" />
+  </RadioGroup>
+
+  <SeekBar
+      android:id="@+id/minutes"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+ 
+</LinearLayout>

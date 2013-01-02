@@ -7167,3 +7167,1077 @@ Binding(ALT+SHIFT+ARROW_LEFT,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SESSION 2012-12-30 12:59:18.239 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 4 0 2012-12-30 13:02:52.670
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NumberFormatException: For input string: "4,7"
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at java.lang.Float.parseFloat(Unknown Source)
+	at com.android.sdkuilib.internal.widgets.AvdStartDialog.onScaleChange(AvdStartDialog.java:386)
+	at com.android.sdkuilib.internal.widgets.AvdStartDialog.access$200(AvdStartDialog.java:65)
+	at com.android.sdkuilib.internal.widgets.AvdStartDialog$6.widgetSelected(AvdStartDialog.java:240)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.android.sdkuilib.internal.widgets.AvdSelector.onStart(AvdSelector.java:1094)
+	at com.android.sdkuilib.internal.widgets.AvdSelector.access$600(AvdSelector.java:84)
+	at com.android.sdkuilib.internal.widgets.AvdSelector$7.widgetSelected(AvdSelector.java:329)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1029)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:923)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.ui 4 0 2012-12-30 15:36:54.245
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NumberFormatException: For input string: "4,7"
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at java.lang.Float.parseFloat(Unknown Source)
+	at com.android.sdkuilib.internal.widgets.AvdStartDialog.onScaleChange(AvdStartDialog.java:386)
+	at com.android.sdkuilib.internal.widgets.AvdStartDialog.access$200(AvdStartDialog.java:65)
+	at com.android.sdkuilib.internal.widgets.AvdStartDialog$6.widgetSelected(AvdStartDialog.java:240)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at com.android.sdkuilib.internal.widgets.AvdSelector.onStart(AvdSelector.java:1094)
+	at com.android.sdkuilib.internal.widgets.AvdSelector.access$600(AvdSelector.java:84)
+	at com.android.sdkuilib.internal.widgets.AvdSelector$7.widgetSelected(AvdSelector.java:329)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1029)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:923)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.jface 2 0 2012-12-30 22:42:06.581
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.581
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3d30361e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3e3567c1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.581
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@28310af4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3511d0b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.581
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2bc62dc9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4dd1c997,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.581
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5fe7fd92,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7a6ee809,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.581
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@77b8ad6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1ca1dace,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.581
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7d824e29,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@75d9a61e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.582
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@24293804,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5aef3724,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.582
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@e1ca128,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@652437c0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.582
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@79985054,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17ee34f7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.582
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7ec1f929,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@150ce14b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.582
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@70cd33c2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@44f6cc72,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.582
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@30013f69,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@33aba173,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-30 22:42:06.582
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@21ea1f1e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@52785b47,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.200
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.302
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.308
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.314
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.320
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.326
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.332
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.339
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.344
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.351
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.356
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.362
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.369
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.390
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.395
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.401
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.410
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.415
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.421
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.426
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.431
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.437
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.443
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.448
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.453
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.459
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.463
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.469
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.474
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.480
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.485
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.491
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.495
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.501
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.506
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.511
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.516
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.521
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.527
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.533
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.539
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.546
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.557
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.595
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.605
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.611
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.615
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.621
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.626
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.631
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.636
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.642
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.648
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.653
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.659
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.664
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.670
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.674
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.680
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.685
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.691
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.695
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.701
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.706
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.712
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.716
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.721
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.726
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.732
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.737
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.742
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.803
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.809
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.814
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.820
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.824
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.830
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.834
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.840
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.845
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.850
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.864
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.869
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.874
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.879
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.884
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.890
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.895
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.900
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.905
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.910
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.915
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.920
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.925
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.931
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.935
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.941
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.945
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.951
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.956
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.961
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.966
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.971
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.975
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.980
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:50.994
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:51.002
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:51.011
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:51.023
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:51.029
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:51.034
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:51.040
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:51.045
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.047
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.051
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.056
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.060
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.064
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.070
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.075
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.079
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.083
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.088
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.093
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.097
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.102
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.106
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.110
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.115
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.119
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.123
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.129
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.135
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.139
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.144
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.148
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.152
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.157
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.161
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.166
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.170
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.175
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.179
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.183
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.188
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.192
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.196
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.201
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.205
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.209
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.214
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.220
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.226
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.232
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.239
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.244
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.250
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.256
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.262
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.273
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.278
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.286
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.292
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.298
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.303
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.309
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.315
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.321
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.326
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.332
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.339
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.344
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.350
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.355
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.368
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.373
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.379
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.383
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.389
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.394
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.399
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.408
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.413
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.419
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.424
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.429
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.434
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.439
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.444
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.450
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.456
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.462
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.468
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.473
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.479
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.485
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.491
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.495
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.500
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.504
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.508
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.512
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.516
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.520
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.525
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.529
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.533
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.538
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.542
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.546
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.550
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.554
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.560
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.564
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.569
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.573
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.577
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.581
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.590
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.595
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.601
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.606
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.612
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.627
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.634
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-30 22:44:55.640
+!MESSAGE activity_favorite.xml: Couldn't resolve resource @string/favorite
+
+!ENTRY com.android.ide.eclipse.adt 4 4 2012-12-30 23:09:23.033
+!MESSAGE Failed
+!STACK 0
+java.lang.NullPointerException
+	at com.android.tools.lint.client.api.XmlVisitor.visitElement(XmlVisitor.java:208)
+	at com.android.tools.lint.client.api.XmlVisitor.visitFile(XmlVisitor.java:150)
+	at com.android.tools.lint.client.api.LintDriver.checkIndividualResources(LintDriver.java:1543)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:829)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:732)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:340)
+	at com.android.ide.eclipse.adt.internal.lint.LintJob.run(LintJob.java:153)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 4 2012-12-30 23:09:23.439
+!MESSAGE Failed
+!STACK 0
+java.lang.NullPointerException
+	at com.android.tools.lint.client.api.XmlVisitor.visitElement(XmlVisitor.java:208)
+	at com.android.tools.lint.client.api.XmlVisitor.visitFile(XmlVisitor.java:150)
+	at com.android.tools.lint.client.api.LintDriver.checkIndividualResources(LintDriver.java:1543)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:829)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:732)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:340)
+	at com.android.ide.eclipse.adt.internal.lint.LintJob.run(LintJob.java:153)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-31 15:00:08.593
+!MESSAGE activity_addmosque.xml: Couldn't resolve resource @string/txtMosqueAddress
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-31 15:00:08.875
+!MESSAGE activity_addmosque.xml: Couldn't resolve resource @string/txtMosqueAddress
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-31 15:43:58.950
+!MESSAGE activity_addmosque.xml: "" in attribute "layout_weight" cannot be converted to float.
+
+!ENTRY com.android.ide.eclipse.adt 4 4 2012-12-31 15:44:04.899
+!MESSAGE Failed
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+	at java.lang.String.charAt(Unknown Source)
+	at com.android.tools.lint.checks.TextViewDetector.visitElement(TextViewDetector.java:124)
+	at com.android.tools.lint.client.api.XmlVisitor.visitElement(XmlVisitor.java:170)
+	at com.android.tools.lint.client.api.XmlVisitor.visitElement(XmlVisitor.java:209)
+	at com.android.tools.lint.client.api.XmlVisitor.visitElement(XmlVisitor.java:209)
+	at com.android.tools.lint.client.api.XmlVisitor.visitFile(XmlVisitor.java:150)
+	at com.android.tools.lint.client.api.LintDriver.checkIndividualResources(LintDriver.java:1543)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:829)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:732)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:340)
+	at com.android.ide.eclipse.adt.internal.lint.LintJob.run(LintJob.java:153)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-31 16:13:40.208
+!MESSAGE activity_addmosque.xml: "ho" in attribute "orientation" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-12-31 16:13:40.336
+!MESSAGE activity_addmosque.xml: "ho" in attribute "orientation" is not a valid value

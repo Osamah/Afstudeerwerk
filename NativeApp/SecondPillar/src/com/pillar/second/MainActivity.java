@@ -1,13 +1,12 @@
 package com.pillar.second;
 
-import android.os.Bundle;
 import android.app.TabActivity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
-import android.widget.Toast;
 
 public class MainActivity extends TabActivity {
 
@@ -16,6 +15,8 @@ public class MainActivity extends TabActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
      
+       
+        
         //Defining Tabs
        TabHost tabHost = getTabHost();
  
@@ -69,7 +70,7 @@ public class MainActivity extends TabActivity {
           return true;
           
        case R.id.option_about:
-          Toast.makeText(this, "Help", Toast.LENGTH_SHORT).show();
+          //Toast.makeText(this, "Help", Toast.LENGTH_SHORT).show();
     	   
     	   //Start About Activity	
     	   Intent about = new Intent(this, AboutActivity.class);
