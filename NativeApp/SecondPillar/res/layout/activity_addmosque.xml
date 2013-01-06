@@ -9,8 +9,9 @@
     android:scrollbars="vertical">
     
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="vertical" >
 		
 		<TextView
@@ -18,7 +19,9 @@
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:text="@string/lblAddMosque"
-		    android:textSize="10pt">
+		    android:textSize="10pt"
+		    android:layout_marginBottom="5dp"
+		   >
 		</TextView>
         
         <EditText
@@ -26,7 +29,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txtMosqueName"
-            android:inputType="textCapWords" >
+            android:inputType="textCapWords" 
+            style="@style/txtBoxes">
 
 		</EditText>
 		
@@ -35,7 +39,8 @@
 		    android:layout_height="wrap_content"
 		    android:hint="@string/txtMosqueAddress"
 		    android:inputType="textPostalAddress"
-		    android:layout_width="fill_parent">
+		    android:layout_width="fill_parent"
+		    style="@style/txtBoxes">
 		</EditText>
         
         <EditText
@@ -43,7 +48,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txtMosqueZipCode"
-            android:inputType="number" >
+            android:inputType="number"
+            style="@style/txtBoxes" >
 		</EditText>
 		
         <EditText
@@ -51,7 +57,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txtMosquePlace"
-            android:inputType="textPostalAddress" >
+            android:inputType="textPostalAddress" 
+            style="@style/txtBoxes">
 		</EditText>
         
         <EditText
@@ -59,7 +66,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txtMosquePhone"
-            android:inputType="phone" >
+            android:inputType="phone"
+            style="@style/txtBoxes">
 		</EditText>
         
         <EditText
@@ -67,7 +75,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txtMosqueMail"
-            android:inputType="textEmailAddress" >
+            android:inputType="textEmailAddress" 
+            style="@style/txtBoxes">
 		</EditText>
         
         <EditText
@@ -75,7 +84,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txtMosqueSite"
-            android:inputType="textUri" >
+            android:inputType="textUri" 
+            style="@style/txtBoxes">
 		</EditText>
 		
         <EditText
@@ -83,8 +93,24 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txtMosqueInfo"
-            android:inputType="textMultiLine" >
+            android:inputType="textMultiLine"
+            style="@style/txtBoxes" >
 		</EditText>
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="5dp">
+            
+            <Button 
+            android:id="@+id/btnAddMosque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAddMosque"
+            android:layout_centerInParent="true"
+        />
+            
+        </RelativeLayout>
         
         
         

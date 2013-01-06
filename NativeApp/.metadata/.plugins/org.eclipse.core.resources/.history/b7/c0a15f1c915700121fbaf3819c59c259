@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ScrollView to scroll vertical down the page -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:orientation="vertical" >
+		
+		<TextView
+		    android:id="@+id/lblAddMosque"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/lblAddMosque"
+		    android:textSize="10pt"
+		   >
+		</TextView>
+        
+        <EditText
+            android:id="@+id/txtMosqueName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtMosqueName"
+            android:inputType="textCapWords" 
+            style="@style/txtBoxes">
+
+		</EditText>
+		
+        <EditText
+		    android:id="@+id/txtMosqueAddress"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/txtMosqueAddress"
+		    android:inputType="textPostalAddress"
+		    android:layout_width="fill_parent"
+		    style="@style/txtBoxes">
+		</EditText>
+        
+        <EditText
+            android:id="@+id/txtMosqueZipCode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtMosqueZipCode"
+            android:inputType="number"
+            style="@style/txtBoxes" >
+		</EditText>
+		
+        <EditText
+            android:id="@+id/txtMosquePlace"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtMosquePlace"
+            android:inputType="textPostalAddress" 
+            style="@style/txtBoxes">
+		</EditText>
+        
+        <EditText
+            android:id="@+id/txtMosquePhone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtMosquePhone"
+            android:inputType="phone"
+            style="@style/txtBoxes">
+		</EditText>
+        
+        <EditText
+            android:id="@+id/txtMosqueMail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtMosqueMail"
+            android:inputType="textEmailAddress" 
+            style="@style/txtBoxes">
+		</EditText>
+        
+        <EditText
+            android:id="@+id/txtMosqueSite"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtMosqueSite"
+            android:inputType="textUri" 
+            style="@style/txtBoxes">
+		</EditText>
+		
+        <EditText
+            android:id="@+id/txtMosqueInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtMosqueInfo"
+            android:inputType="textMultiLine"
+            style="@style/txtBoxes" >
+		</EditText>
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            
+            <Button 
+            android:id="@+id/btnAddMosque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAddMosque"
+            android:layout_centerInParent="true"
+        />
+            
+        </RelativeLayout>
+        
+        
+        
+    </LinearLayout>
+</ScrollView>

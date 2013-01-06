@@ -1,0 +1,7 @@
+Logo Font: 		Ceria Lebaran
+
+Colors:
+	ActionBar:	#006633
+	Stacked:	#006d1f
+	PopUp:		#006f21
+	Accent:		#10b54f

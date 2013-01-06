@@ -36,48 +36,49 @@ public final class R {
         public static final int volume_on_light=0x7f020016;
     }
     public static final class id {
-        public static final int NotificationsPraying=0x7f07002c;
+        public static final int NotificationsPraying=0x7f07002d;
         public static final int ScrollView01=0x7f070001;
         public static final int aboutText=0x7f070000;
-        public static final int btnLocation=0x7f070022;
-        public static final int btnSearchAddress=0x7f070027;
-        public static final int btnSearchAdres=0x7f070021;
-        public static final int dhorRow=0x7f070011;
-        public static final int fjarRow=0x7f070023;
-        public static final int imageView1=0x7f07000b;
-        public static final int inAdvance=0x7f07002d;
-        public static final int lahsaRow=0x7f07001d;
+        public static final int btnAddMosque=0x7f07000b;
+        public static final int btnLocation=0x7f070023;
+        public static final int btnSearchAddress=0x7f070028;
+        public static final int btnSearchAdres=0x7f070022;
+        public static final int dhorRow=0x7f070012;
+        public static final int fjarRow=0x7f070024;
+        public static final int imageView1=0x7f07000c;
+        public static final int inAdvance=0x7f07002e;
+        public static final int lahsaRow=0x7f07001e;
         public static final int lblAddMosque=0x7f070002;
-        public static final int magrebRow=0x7f070019;
-        public static final int menu_search=0x7f070030;
-        public static final int minutes=0x7f07002f;
-        public static final int mosque1=0x7f07000e;
-        public static final int mosqueRow=0x7f07000d;
-        public static final int notifications=0x7f070028;
-        public static final int onTime=0x7f07002e;
-        public static final int option_about=0x7f070032;
-        public static final int option_settings=0x7f070031;
-        public static final int prayMosque=0x7f07002b;
-        public static final int prayer1=0x7f070024;
-        public static final int prayer2=0x7f070012;
-        public static final int prayer3=0x7f070016;
-        public static final int prayer4=0x7f07001a;
-        public static final int prayer5=0x7f07001e;
-        public static final int prayerNotification1=0x7f070026;
-        public static final int prayerNotification2=0x7f070014;
-        public static final int prayerNotification3=0x7f070018;
-        public static final int prayerNotification4=0x7f07001c;
-        public static final int prayerNotification5=0x7f070020;
-        public static final int prayerTime1=0x7f070025;
-        public static final int prayerTime2=0x7f070013;
-        public static final int prayerTime3=0x7f070017;
-        public static final int prayerTime4=0x7f07001b;
-        public static final int prayerTime5=0x7f07001f;
-        public static final int prayhome=0x7f07002a;
-        public static final int remove1=0x7f070010;
-        public static final int rhasrRow=0x7f070015;
-        public static final int route1=0x7f07000f;
-        public static final int tblPrayer=0x7f07000c;
+        public static final int magrebRow=0x7f07001a;
+        public static final int menu_search=0x7f070031;
+        public static final int minutes=0x7f070030;
+        public static final int mosque1=0x7f07000f;
+        public static final int mosqueRow=0x7f07000e;
+        public static final int notifications=0x7f070029;
+        public static final int onTime=0x7f07002f;
+        public static final int option_about=0x7f070033;
+        public static final int option_settings=0x7f070032;
+        public static final int prayMosque=0x7f07002c;
+        public static final int prayer1=0x7f070025;
+        public static final int prayer2=0x7f070013;
+        public static final int prayer3=0x7f070017;
+        public static final int prayer4=0x7f07001b;
+        public static final int prayer5=0x7f07001f;
+        public static final int prayerNotification1=0x7f070027;
+        public static final int prayerNotification2=0x7f070015;
+        public static final int prayerNotification3=0x7f070019;
+        public static final int prayerNotification4=0x7f07001d;
+        public static final int prayerNotification5=0x7f070021;
+        public static final int prayerTime1=0x7f070026;
+        public static final int prayerTime2=0x7f070014;
+        public static final int prayerTime3=0x7f070018;
+        public static final int prayerTime4=0x7f07001c;
+        public static final int prayerTime5=0x7f070020;
+        public static final int prayhome=0x7f07002b;
+        public static final int remove1=0x7f070011;
+        public static final int rhasrRow=0x7f070016;
+        public static final int route1=0x7f070010;
+        public static final int tblPrayer=0x7f07000d;
         public static final int txtMosqueAddress=0x7f070004;
         public static final int txtMosqueInfo=0x7f07000a;
         public static final int txtMosqueMail=0x7f070008;
@@ -86,7 +87,7 @@ public final class R {
         public static final int txtMosquePlace=0x7f070006;
         public static final int txtMosqueSite=0x7f070009;
         public static final int txtMosqueZipCode=0x7f070005;
-        public static final int wherePraying=0x7f070029;
+        public static final int wherePraying=0x7f07002a;
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;
@@ -109,9 +110,10 @@ public final class R {
          */
         public static final int about=0x7f04000b;
         public static final int app_name=0x7f040000;
-        public static final int button_send=0x7f040024;
-        public static final int edit_message=0x7f040023;
-        public static final int favorite=0x7f040026;
+        public static final int btnAddMosque=0x7f040022;
+        public static final int button_send=0x7f040025;
+        public static final int edit_message=0x7f040024;
+        public static final int favorite=0x7f040027;
         /**  Prayer 
          */
         public static final int headerCol1=0x7f04000c;
@@ -125,7 +127,7 @@ public final class R {
         /**  Menu 
          */
         public static final int menu_search=0x7f040001;
-        public static final int menu_settings=0x7f040025;
+        public static final int menu_settings=0x7f040026;
         /**  Settings 
          */
         public static final int notifications=0x7f040004;
@@ -149,7 +151,7 @@ public final class R {
         public static final int prayingWhere=0x7f040005;
         /**  Search Mosque 
          */
-        public static final int searchAddress=0x7f040022;
+        public static final int searchAddress=0x7f040023;
         public static final int txtMosqueAddress=0x7f04001b;
         public static final int txtMosqueInfo=0x7f040021;
         public static final int txtMosqueMail=0x7f04001f;
@@ -186,5 +188,8 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f050001;
+        /**  /////////////////\\\\\\\\\\\\\\\\\\\\\< 
+         */
+        public static final int txtBoxes=0x7f050002;
     }
 }

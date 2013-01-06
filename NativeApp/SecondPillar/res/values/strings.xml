@@ -59,6 +59,7 @@
   	<string name="txtMosqueMail">Mosque\'s email</string>
     <string name="txtMosqueSite">Mosque\'s site</string>
     <string name="txtMosqueInfo">Mosque\'s info</string>
+    <string name="btnAddMosque">Done</string>
     
     <!-- Search Mosque -->
     <string name="searchAddress">Address</string>
